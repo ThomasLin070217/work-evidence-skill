@@ -1,0 +1,18 @@
+{
+  "period_start": "2026-04-01",
+  "period_end": "2026-04-30",
+  "as_of": "2026-04-28",
+  "timezone": "Asia/Shanghai",
+  "tasks": [
+    {"id": "form", "title": "报名流程优化", "output": "完成原型与测试，待评审", "evidence": [{"label": "示例原型", "url": "https://example.org/demo/form"}]},
+    {"id": "research", "title": "新用户体验调研", "output": "完成初稿，月底继续对比", "evidence": [{"label": "示例报告", "url": "https://example.org/demo/research"}]},
+    {"id": "handoff", "title": "交接与工作汇总", "output": "整理交接清单", "evidence": []}
+  ],
+  "entries": [
+    {"id": "form-design", "task_id": "form", "kind": "recalled", "date": "2026-04-07", "minutes": 180, "basis": "虚构示例：本人回忆的设计与prompt迭代"},
+    {"id": "form-review", "task_id": "form", "kind": "recorded", "start": "2026-04-08T14:00:00+08:00", "end": "2026-04-08T14:30:00+08:00", "basis": "虚构示例：个人参会记录"},
+    {"id": "research-draft", "task_id": "research", "kind": "estimated", "date": "2026-04-27", "minutes": 180, "basis": "虚构示例：资料审阅、对比及初稿估算"},
+    {"id": "research-forecast", "task_id": "research", "kind": "forecast", "date": "2026-04-29", "minutes": 240, "basis": "虚构示例：计划继续调研四小时"},
+    {"id": "handoff-summary", "task_id": "handoff", "kind": "recalled", "date": "2026-04-28", "minutes": 60, "basis": "虚构示例：交接整理，不重复计算评审会议"}
+  ]
+}

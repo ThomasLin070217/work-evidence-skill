@@ -1,0 +1,4 @@
+interface:
+  display_name: "Work Evidence · 工作产出与工时"
+  short_description: "把工作聊天、交付物和个人回忆整理成可复核的任务、工时与产出报告"
+  default_prompt: "Use $work-evidence to reconstruct my work this month by task, include research and communication time, and produce a concise evidence-linked report with forecast time separated."
